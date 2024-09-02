@@ -1,0 +1,24 @@
+/* link google font */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+*{
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+:root{
+  --font-montserrat: "Montserrat", sans-serif;
+  --nav-footer-color: #1b3351;
+  --menu-color: #122133;
+  --body-color: #091521;
+  --hover-color: #cea939;
+  --banner-color: #1b2232;
+  --padd: 0 180px;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--body-color);
+}
+.container > main {
+    width: 100%;
+}

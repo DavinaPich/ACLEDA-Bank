@@ -1,0 +1,62 @@
+.container > main > .banner {
+    width: 100%;
+    background-color: var(--banner-color);
+    padding: var(--padd);
+    box-shadow: 0 5px 10px black;
+    position: relative;
+}
+.container > main > .banner > .image{
+    width: 100%;
+    height: 500px;
+    background-color: blue;
+    animation: ImageRender 10s linear infinite;
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+@keyframes ImageRender {
+    0%{
+        background-image: url(/assets/img/banner-1.jpg);
+        background-size: cover;
+    }
+    40%{
+        background-image: url(/assets/img/banner-2.jpg);
+        background-size: cover;
+    }
+    70%{
+        background-image: url(/assets/img/banner-3.jpg);
+        background-size: cover;
+    }
+    100%{
+        background-image: url(/assets/img/banner-1.jpg);
+        background-size: cover;
+    }
+}
+
+.container > main > .icon-banner{
+    width: 100%;
+    background-color: aliceblue;
+    padding: 80px 180px;
+    background-color: var(--menu-color);
+}
+.container > main > .icon-banner > ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.container > main > .icon-banner > ul > li{
+    text-align: center;
+    margin: 0 30px;
+}
+.container > main > .icon-banner > ul > li > a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: var(--font-montserrat);
+
+}
+.container > main > .icon-banner > ul > li > a:hover{
+    text-decoration: underline;
+}
+.container > main > .icon-banner > ul > li > a > img{
+    padding-bottom: 20px;
+}

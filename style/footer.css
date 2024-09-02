@@ -1,0 +1,94 @@
+.container > footer{
+    font-family: "Fira Sans", sans-serif;
+    width: 100%;
+    background-color: white;
+}
+.container > footer > .branch-card{
+    width: 100%;
+    background-color: grey;
+    display: flex;
+}
+.container > footer > .branch-card > .card{
+    width: 25%;
+    
+    background-color: grey;
+    border: 2px solid rgb(91, 88, 88);
+    text-align: center;
+    padding: 20px;
+}
+.container > footer > .branch-card > .card > img{
+    margin: 10px 0 15px 0;
+}
+.container > footer > .branch-card > .card > p{
+    font-size: 16px;
+    line-height: 25px;
+    margin: 15px 0;
+}
+.container > footer > .branch-card > .card > p > a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600px;
+}
+.container > footer > .branch-card > .card > p > a:hover{
+    text-decoration: underline;
+}
+.container > footer > .contact{
+    width: 100%;
+    background-color: var(--menu-color);
+}
+.container > footer > .contact > .contact-data{
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+    padding-top: 45px;
+    text-align: center;
+}
+.container > footer > .contact > .contact-data > .first-contact{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.container > footer > .contact > .contact-data > .first-contact > li{
+    padding: 5px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    color: white;
+}
+.container > footer > .contact > .contact-data > .first-contact > li:hover{
+    text-decoration: underline;
+}
+.container > footer > .contact > .contact-data > .first-contact:nth-child(2) > li:hover{
+    text-decoration: none;
+}
+.container > footer > .contact > .contact-data > .achievement > p{
+    margin: 10px 0;
+    color: white;
+}
+.container > footer > .contact > .contact-data > .achievement > img{
+    margin: 10px 5px;
+    border-radius: 5px;
+}
+.container > footer > .contact > .contact-data > p{
+    margin: 10px 5px;
+    font-size: 11px;
+    color: white;
+}
+.container > footer > .contact > .contact-data > .socail-media{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding-bottom: 80px;
+}
+.container > footer > .contact > .contact-data > .socail-media > li{
+    margin: 0 5px;
+}
+.container > footer > .contact > .contact-data > .socail-media > li > img{
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    padding: 0.3px;
+    border-radius: 1px solid rgb(71, 71, 134);
+}
+.container > footer > .contact > .contact-data > .socail-media > li > img:hover{
+    border: 1px solid white;
+}
